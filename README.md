@@ -1,3 +1,7 @@
+**NAME RANJANA R**
+
+**REGISTER NO: 212224040270**
+
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -37,64 +41,50 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+Full Adder
+![Screenshot (49)](https://github.com/user-attachments/assets/823e0395-f6ec-475c-a2bf-6be49b3f7fb0)
+Full Subtractor
+![Screenshot (72)](https://github.com/user-attachments/assets/8b913326-e835-42f1-ace7-413e3d13f47d)
+
+
 
 **Procedure**
 
-Write the detailed procedure here
+Type the program in Quartus software.
+
+Compile and run the program.
+
+Generate the RTL schematic and save the logic diagram.
+
+Create nodes for inputs and outputs to generate the timing diagram.
+
+For different input combinations generate the timing diagram.
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-```
-full adder
-module exp4(sum,cout,a,b,cin);
- output sum;
- output cout;
- input a;
- input b;
- input cin;
- wire s1,c1,c2;
- xor(s1,a,b);
- and(c1,a,b);
- xor(sum,s1,cin);
- and(c2,s1,cin);
- or(cout,c2,c1);
- endmodule
+![Screenshot (66)](https://github.com/user-attachments/assets/d32b9451-4f26-4150-a78e-ff61107903fd)
 
-```
-full subtractor
-module exp4a(df,bo,a,b,bin);
- output df;
- output bo;
- input a;
- input b;
- input bin;
- wire w1,w2,w3;
- assign w1=a^b;
- assign w2=(~a&b);
- assign w3=(~w1&bin);
- assign df=w1^bin;
- assign bo=w2|w3;
- endmodule
 
-Developed by: RegisterNumber:
-*/
+
+![Screenshot (69)](https://github.com/user-attachments/assets/dcd73264-9ceb-4159-9553-f0bcd7aaf737)
 
 **RTL Schematic**
-full adder
-![Experiment 4](https://github.com/user-attachments/assets/9d0c22b4-9782-4985-947d-ce8ea9237362)
 
-full subtractor
 
-![experiment 4 b](https://github.com/user-attachments/assets/2188cc3c-fa6c-4eb6-81dd-b731942fcac5)
+![Screenshot (68)](https://github.com/user-attachments/assets/2968f80a-8ae2-48ba-b194-10e04dbc7bad)
+
+
+
+![Screenshot (70)](https://github.com/user-attachments/assets/69f8e4e9-e336-4f88-a837-635b2fa178de)
+
 
 **Output Timing Waveform**
-full adder
-![exp4c](https://github.com/user-attachments/assets/685c2ec2-cd3a-4f7d-b49f-89c85eab0c34)
+Full adder
+![Screenshot (67)](https://github.com/user-attachments/assets/23263333-d9c7-41b4-b343-028695b426a6)
 
-full subtractor
-![exp4d](https://github.com/user-attachments/assets/e1deae79-ff10-4551-adb8-b692c2d89480)
 
+Full subtractor
+![Screenshot (71)](https://github.com/user-attachments/assets/f27456b4-e059-4d4a-ad39-2bba1fd3160a)
 
 
 **Result:**
