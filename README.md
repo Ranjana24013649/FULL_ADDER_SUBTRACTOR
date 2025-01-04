@@ -2,7 +2,7 @@
 
 **REGISTER NO: 212224040270**
 
-# EXP NO:4 FULL_ADDER_SUBTRACTOR
+# EXP NO:4  IMPLEMENTATION OF FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
