@@ -80,11 +80,13 @@ For different input combinations generate the timing diagram.
 
 **Output Timing Waveform**
 Full adder
-![Screenshot (67)](https://github.com/user-attachments/assets/23263333-d9c7-41b4-b343-028695b426a6)
 
+![Screenshot (84)](https://github.com/user-attachments/assets/f64355cd-c1f3-4e3e-91d3-d809876385e6)
 
 Full subtractor
-![Screenshot (71)](https://github.com/user-attachments/assets/f27456b4-e059-4d4a-ad39-2bba1fd3160a)
+
+![Screenshot (85)](https://github.com/user-attachments/assets/06f23daf-28ba-4b66-a08d-27b545c0048d)
+
 
 
 **Result:**
